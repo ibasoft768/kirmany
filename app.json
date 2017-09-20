@@ -1,0 +1,20 @@
+{
+  "name": "kirmany",
+  "description": "it a mobile",
+  "scripts": {
+    "postdeploy": "home/dev",
+    "pr-predestroy": "home/trash"
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
